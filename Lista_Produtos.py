@@ -3,6 +3,7 @@
 # *Em um arquivo deve ser colocado o toral de produtos vendidos (quantidade), a media da quantidade de produtos vendidos e o valor toral de vendas de todos os produtos.
 # *Em outro arquivo deve conter a identificação do produto mais vendido e do menos vendido com base na quantidade.
 
+
 produtos = [
     {
         "nome": "Arroz",

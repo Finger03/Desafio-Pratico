@@ -1,0 +1,18 @@
+from Lista_Produtos import produtos
+
+if produtos:
+    # Identifica o produto mais vendido
+    produto_mais_vendido = max(produtos, key=produtos.get)
+    vendas_mais_vendido = produtos[produto_mais_vendido]
+
+    # Identifica o produto menos vendido
+    produto_menos_vendido = min(produtos, key=produtos.get)
+    vendas_menos_vendido = produtos[produto_menos_vendido]
+
+    # Imprime os resultados
+    print(f"Produto mais vendido: {produto_mais_vendido} com {vendas_mais_vendido} vendas")
+    print(f"Produto menos vendido: {produto_menos_vendido} com {vendas_menos_vendido} vendas")
+else:
+    print("O dicionário está vazio.")
+    
+
