@@ -6,12 +6,12 @@ Este projeto consiste em um programa em Python que realiza a análise de vendas 
 
 O programa gera dois relatórios a partir dos dados de vendas:
 
-1. **Relatório Geral de Vendas**:
+1. **Lista_Produtos.py**:
    - Total de produtos vendidos (quantidade).
    - Média da quantidade de produtos vendidos.
    - Valor total das vendas de todos os produtos.
 
-2. **Relatório de Produtos**:
+2. **produto_mais_vendido_e_menos**:
    - Identificação do produto mais vendido (com base na quantidade).
    - Identificação do produto menos vendido (com base na quantidade).
 
